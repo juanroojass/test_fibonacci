@@ -1,0 +1,27 @@
+//el pseudocodigo es escrito con el software PSeInt
+
+proceso fibonacci
+	Escribir 'ingrese un valor numerico';
+	leer valor;
+	si valor > 0 y valor<= 12 Entonces
+		para x<-1 hasta valor			
+			Escribir funcion_recursiva(x)					
+		finpara	
+	SiNo
+		escribir 'Ingrese un valor numérico mayor a cero y menor igual a 12'
+	FinSi
+FinProceso 
+	
+Funcion res <- funcion_recursiva(valor_serie)
+	si valor_serie <= 1 Entonces
+		si valor_serie==0 Entonces
+			res <- valor_serie
+		SiNo
+			res <- valor_serie
+		FinSi				
+	
+	sino 
+		res <- funcion_recursiva(valor_serie-1) + funcion_recursiva(valor_serie-2)
+	FinSi	
+	
+FinFuncion

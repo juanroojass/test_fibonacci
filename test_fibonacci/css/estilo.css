@@ -1,0 +1,12 @@
+.div__contenedor{
+	margin: 0 auto;
+	width: 50%;
+	/*border: 1px red solid;*/
+}
+
+.elementos{
+	padding: 10px;
+}
+.elementos input{
+	width: 70px;
+}
