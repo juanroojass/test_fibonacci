@@ -5,7 +5,7 @@ proceso fibonacci
 	leer valor;
 	si valor > 0 y valor<= 12 Entonces
 		para x<-1 hasta valor			
-			Escribir funcion_recursiva(x)					
+			Escribir funcion_recursiva(x) + funcion_recursiva(x+1)				
 		finpara	
 	SiNo
 		escribir 'Ingrese un valor numérico mayor a cero y menor igual a 12'
